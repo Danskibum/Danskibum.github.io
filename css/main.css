@@ -1,0 +1,18 @@
+body {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+img {
+    width: 150px;
+    height: 150px;
+    float: right;
+   
+}
+h1, footer {
+    background-color: green;
+    color: #fff;
+    padding: 1rem;
+}
+footer {
+    text-align: center;
+}
