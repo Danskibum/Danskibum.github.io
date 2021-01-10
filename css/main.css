@@ -1,19 +1,27 @@
 body {
     margin: 1.25rem auto;
     max-width: 760px;
-}
+  }
 img {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 200px;
     float: right;
+    margin-right: 10px;
+    border-radius: 10px;
    
 }
 h1, footer {
     background-color: green;
     color: #fff;
     padding: 1rem;
-}
-footer {
+    border-radius: 10px;
     text-align: center;
 }
-
+h2 {
+    border-bottom: 2px solid;
+    border-color: green;
+    margin-right: 10px;
+}
+h1 {
+    font-size: extra-large;
+}
