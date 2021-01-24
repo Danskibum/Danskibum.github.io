@@ -1,43 +1,27 @@
 body {
-    margin: 0 auto;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-
+  margin: 0 auto;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
 }
+header,
+footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  font-family: "Yusei Magic", sans-serif;
+  grid-column: span 3;
 }
-header, footer {
-    background-color: green;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    font-family: 'Yusei Magic', sans-serif;
-    grid-column: span 3;
+#first,
+#second,
+#third,
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  border: 1px solid #bbb;
+  background-color: #eee;
 }
-#first, #second, #third, p  {
-    font-family: 'Roboto Condensed', sans-serif;
-    border: 1px solid #bbb;
-    background-color: #eee;
+a,
+section {
+  padding: 0.5em;
 }
-a, section {
-    padding: 0.5em;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

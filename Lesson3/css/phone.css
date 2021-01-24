@@ -1,0 +1,49 @@
+ul a {
+    color: #5c009eff;
+    font-family: 'open sans condensed', sans-serif;
+    font-size: larger;
+    font-weight: 800;
+}
+h1, h2, h3, h4 {
+    background-color: #56b811ff;
+    color: #0e0514ff;
+    font-family: 'gorditas', cursive;
+}
+.icon {
+    max-width: 150px;
+    height: auto;
+    float: left;
+
+
+}
+ul {
+    display: flex;
+    text-align: center;
+    padding: 1.5em;
+}
+body {
+    background-color: #3a6e15ff;
+    color: #0e0514ff;
+
+}
+.title {
+    height: 250px;
+    text-align: center;
+    margin: 0px, 200px;
+}
+footer {
+    text-align: center;
+}
+.subtitle {
+    text-align: center;
+}
+.font1 {
+    font-family: 'Gorditas', cursive;
+
+}
+.font2, {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: medium;
+    font-weight: 600;
+
+}
