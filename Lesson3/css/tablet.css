@@ -2,9 +2,11 @@
 nav ul {
     display: flex;
 }
-nav ul li{
+nav ul li {
     flex: 1 1 100%
 }
-
+.title {
+    margin: 0px 200px;
+}
     
 }
