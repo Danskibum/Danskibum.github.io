@@ -22,7 +22,7 @@ nav ul li {
    
 }
 body {
-    background-color: #3a6e15ff;
+    background-color: gray;
     color: #0e0514ff;
 
 }
@@ -39,7 +39,7 @@ footer {
 }
 .font1 {
     font-family: 'Gorditas', cursive;
-
+    text-align: center;
 }
 .font2 {
     font-family: 'Open Sans Condensed', sans-serif;

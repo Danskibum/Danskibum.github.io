@@ -1,6 +1,4 @@
-body {
-  margin: 0 auto;
-  max-width: 100%;
+section {
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -11,7 +9,8 @@ footer {
   text-align: center;
   padding: 1em;
   font-family: "Yusei Magic", sans-serif;
-  grid-column: span 3;
+  margin: 0 auto;
+  max-width: 100%;
 }
 #first,
 #second,
