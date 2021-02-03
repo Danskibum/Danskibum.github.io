@@ -1,4 +1,4 @@
-section {
+.info {
   display: grid;
   grid-template-columns: 1fr;
 }
