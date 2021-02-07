@@ -1,0 +1,21 @@
+@media only screen and (min-width: 40em) {
+    .menu {
+        display: flex;
+    }
+    .menu li:first-child {
+        display: none;
+    }
+    .menu li {
+        display: block;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    .woman {
+        max-height: 250px;
+        max-width: 350px;
+        float: right;
+    }
+    .map {
+        float: left;
+    }
+}
