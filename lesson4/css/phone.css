@@ -1,4 +1,4 @@
-.contentbox {
+contentbox {
     display: block;
     margin: 10px auto;
     border: 1px dashed;
@@ -42,13 +42,14 @@ footer {
 }
 header, footer {
     background-color: #56b811ff;
+    max-width: 800px;
+    
 }
 .motto {
     font-family: 'open sans condensed', sans-serif;
 }
 nav {
     margin: 0 auto;
-    max-width: 760px;
     background-color: lightgray;
 }
 
