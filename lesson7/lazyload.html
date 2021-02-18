@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Lazy Loading</title>
+        <meta name="description" content="lazy loading">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/lazyload.css" rel="stylesheet">
+    </head>
+    <Body>
+        <h1>Lazy Loading Images</h1>
+        <picture>
+            <img src='images/placeholder.png' data-src="images/waterfall.jpg" alt="Snoqualmie falls low flow">
+        </picture>
+        <picture>
+            <img src='images/placeholder.png' data-src="images/waterfall1.jpg" alt="Snoqualmie falls high flow">
+        </picture>
+        <picture>
+            <img src="images/placholder.png" data-src="images/road.jpg" alt="road in woods">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/baldeagle.jpg" alt="Bald Eagle">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/elk.jpg" alt="Elk sparing">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/raccoon.jpg" alt=" Raccoon by tree">
+        </picture>
+    <footer>
+        &copy; <span id='date'></span> | Daniel Gerdes | Washington | <a href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
+        Document last Modified <span id='date2'></span>
+    </footer>
+    <script src="js/lazyload.js"></script>
+    </Body>
+
+</html>
