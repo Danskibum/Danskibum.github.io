@@ -2,8 +2,16 @@ table, th, tr, td {
     font-family: Ubuntu, sans-serif;
     border: 1px solid gray;
     border-collapse: collapse;
-    width: 300px;
+    width: 350px;
     text-align: center;
+}
+thead, tfoot {
+    background-color: #7fb9c2;
+}
+.first {
+    color: white;
+    background-color: #628ca6;
+    font-size: 14pt;
 }
 tr:nth-child(even){
     background-color: #e7f0ed;
@@ -12,10 +20,9 @@ tr:nth-child(odd) {
     background-color: #e7ffed;
 
 }
-thead, tfoot {
-    background-color: #7fb9c2;
+tfoot {
+    font-size: 10pt;
 }
-.first {
-    color: white;
-    background-color: #628ca6;
+thead {
+    font-size: 18pt;
 }
