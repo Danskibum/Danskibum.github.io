@@ -1,4 +1,4 @@
-table, th, tr, td {
+table,thead, th, tr, td {
     font-family: Ubuntu, sans-serif;
     border: 1px solid gray;
     border-collapse: collapse;
