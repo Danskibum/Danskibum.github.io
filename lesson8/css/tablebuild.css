@@ -5,9 +5,9 @@ table, thead, th, tr, td {
     width: 350px;
     text-align: center;
 }
-/*table, thead, tfoot {
+table, thead, tfoot {
     background-color: #7fb9c2;
-}*/
+}
 .first {
     color: white;
     background-color: #628ca6;
@@ -28,7 +28,4 @@ thead {
 }
 table {
     box-shadow: 5px 5px 5px #628ca6;
-}
-tfoot {
-    background-color: #7fb9c2;
 }
