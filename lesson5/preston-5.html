@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="banner">
+        <span id="reminder"></span>
+    </div>
     <header>
         <img class="icon" src="images/iconfinder_weather-03_1530390.png" alt="sunny cloud with rain">
         <h1>The Weather Site</h1>
@@ -35,16 +38,53 @@
             <img class="hero" src="images/pexels-pixabay-280221.jpg" alt="piture of town">
             <section class="overlay">
                 <h3 class="weather">Weather Summary</h3>
-                <p>Current Temperature:  73 degrees</p>
-                <p>High Temperature:  80 degrees</p>
-                <p>Windchill:  5 degrees</p>
-                <p>Humidity:  60%</p>
-                <p>Wind speed:  10 MPH</p>
-
+                <div class="current">Current Temperature: </div>
+                <div class="cuvalue"> 73 &#8457;</div>
+                <div class="high">High Temperature: </div>
+                <div class="hivalue"> 80 &#8457;</div>
+                <div class="wind">Windchill: </div>
+                <div class="wivalue"> 5 &#8457;</div>
+                <div class="humidity">Humidity: </div>
+                <div class="huvalue"> 60%</div>
+                <div class="speed">Wind speed: </div>
+                <div class="spvalue"> 10 MPH</div>
             </section>
         </div>    
-        <div class="contentbox">5 Day Forecast</div>
-        <div class="article">
+        <section class="forecast">
+            <h2>5-Day Forecast</h2>
+            <table class="weathertable">
+                <tr>
+                    <th class="cell">Sunday</th>
+                    <th class="cell">Monday</th>
+                    <th class="cell">Tuesday</th>
+                    <th class="cell">Wednesday</th>
+                    <th class="cell">Thursday</th>
+                </tr>
+                <tr>
+                    <td class="cell">
+                        <img src="images/iconfinder_weather-06_1530386.png" alt="Sun cloud">
+                        <p>Cloudy &#8457;</p>
+                    </td>
+                    <td class="cell">
+                        <img src="images/iconfinder_weather-06_1530386.png" alt="Sun cloud">
+                        <p>Partial Cloudy &#8457;</p>
+                    </td>
+                    <td class="cell">
+                        <img src="images/iconfinder_weather-06_1530386.png" alt="Sun cloud">
+                        <p>Nice &#8457;</p>
+                    </td>
+                    <td class="cell">
+                        <img src="images/iconfinder_weather-06_1530386.png" alt="Sun cloud">
+                        <p>Some clouds &#8457;</p>
+                    </td>
+                    <td class="cell">
+                        <img src="images/iconfinder_weather-06_1530386.png" alt="Sun cloud">
+                        <p>Beautiful &#8457;</p>
+                    </td>
+                </tr>    
+            </table>
+        </section>
+        <section class="article">
             <h3 class="hike">Getting outdoors and building family</h3>
             <img class="woman" src="images/pexels-josh-willink-701016.jpg" alt="woman with child on back walking down path">
             <p>If you like being with your family and would like for the chance to be closer to nature
@@ -55,13 +95,21 @@
                 you might want to think about that will allow you to have the best time possible no matter
                 the what the weather is going to do while you are out in nature.
             </p>
-        </div>
-        <div class="contact">
-            Contact information <br>
-            &phone; (888) 456-4857<br>
-            &#9993; weather@prestoncity.org
-            <img class="map" src="images/map.jpg" alt="section of tacoma map">
-        </div>
+        </section>
+        <section class="contact">
+            <div class="info">
+                <h2>Contact Information</h2>
+                <img class="map" src="images/map.jpg" alt="section of tacoma map">
+                <p>The Weather site</p>
+                <p><i class="material-icons">&#127968;</i> Address:<br>
+                155 Weather St Tacoma, WA 98418<br><br>
+                <i class="material-icons">&phone;</i> Phone: <br>
+                (888) 456-4857<br>
+                <i class="material-icons">&#9993;</i> Email: <br>
+                weather@prestoncity.org
+                </p>
+            </div>
+        </section>
     </main>
     <footer>
         &copy; The Weather Site | Attributions | Daniel Gerdes <br>
