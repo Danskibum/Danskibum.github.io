@@ -2,11 +2,7 @@ const getYear = {year: 'numeric'};
 document.getElementById("date").innerHTML = new Date().toLocaleDateString( 'en-us', getYear);
 document.getElementById("date2").innerHTML = document.lastModified;
 
-const imagesToLoad = document.querySelectorAll("img[data-src]")
-const imgOptions = {
-    threshold: 0,
-    rootMargin: "0px 0px 50px 0px"
-};
+let imagesToLoad = document.querySelectorAll('img[data-src]');
 
 const loadImages = (image) => {
     image.setAttribute("src", image.getAttribute("data-src"));
