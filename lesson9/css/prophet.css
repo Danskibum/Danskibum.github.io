@@ -1,0 +1,62 @@
+body, h2, img, main, header, footer, div, p {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+   
+}
+h1 {
+    font-weight: bold;
+    color: indigo;
+}
+header {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+div.cards h2 {
+    padding: 1rem 0 0 0;
+    font-size: 18pt;
+    text-align: center;
+    color: indigo;
+}
+div.cards img {
+    width: 100%;
+    box-shadow: 5px 5px 5px indigo;
+}
+div.cards section {
+    border: 2px solid black;
+    border-radius: 1em;
+    margin: .25rem;
+    padding: 1rem;
+    background-color: mediumpurple;
+    color: black;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* tablet screens */
+
+@media only screen and (min-width: 320px){
+    div.cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop screens */
+
+@media only screen and (min-width: 768px){
+    div.cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
