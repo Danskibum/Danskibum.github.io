@@ -43,15 +43,15 @@
             <section class="overlay">
                 <h3 class="weather">Weather Summary</h3>
                 <div class="current">Current Temperature: </div>
-                <div class="cuvalue"> 73 &#8457;</div>
+                <div class="cuvalue"><span id="temp">73</span> &#8457;</div>
                 <div class="high">High Temperature: </div>
                 <div class="hivalue"> 80 &#8457;</div>
                 <div class="wind">Windchill: </div>
-                <div class="wivalue"> 5 &#8457;</div>
+                <div class="wivalue"><span id="chill"></span> &#8457;</div>
                 <div class="humidity">Humidity: </div>
                 <div class="huvalue"> 60%</div>
                 <div class="speed">Wind speed: </div>
-                <div class="spvalue"> 10 MPH</div>
+                <div class="spvalue"><span id="speed">10</span> MPH</div>
             </section>
         </div>    
         <section class="forecast">
@@ -90,7 +90,7 @@
         </section>
         <section class="article">
             <h3 class="hike">Getting outdoors and building family</h3>
-            <img class="woman" src="images/pexels-josh-willink-701016.jpg" alt="woman with child on back walking down path">
+            <img class="woman" src="images/pexels-josh-willink-edited.jpg" alt="woman with child on back walking down path">
             <p>If you like being with your family and would like for the chance to be closer to nature
                 as a family.  You will have a good weather window in which you can do just that.  If
                 you enjoy being outdoors no madder the weather well then get out there and enjoy
@@ -122,5 +122,6 @@
     <script src="js/main.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
     <script src="js/webfont.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>

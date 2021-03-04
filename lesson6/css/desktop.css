@@ -2,7 +2,9 @@
     header, footer {
         margin: auto;
     }
-
+    .banner {
+        font-weight: bold;
+    }
 
     
 }

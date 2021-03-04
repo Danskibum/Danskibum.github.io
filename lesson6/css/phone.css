@@ -42,10 +42,11 @@ footer {
 }
 header, footer {
     background-color: #56b811ff;
-    max-width: 800px;
+    max-width: 100%;
 }
 .motto {
     font-family: 'open sans condensed', sans-serif;
+    text-align: center;
 }
 nav {
     margin: 0 auto;
@@ -65,19 +66,25 @@ ul, menu, .responsive {
     margin: 10px auto;
 }
 a:hover {
-    background-color: #56b811ff;
-    color:black;
-}
+    background-color: gray;
+   }
+   .contact {
+       padding: 20px;
+   }
 .woman {
-    
     height: 250px;
     margin: 10px auto;
+}
+.article {
+    margin: auto;
+    padding: 1em;
 }
 .hike {
     text-align: center;
 }
 .herodiv {
     position: relative;
+    margin: 10px auto;
 }
 .overlay {
     position: absolute;
@@ -86,10 +93,57 @@ a:hover {
     background-color: rgba(86, 184, 17, .8);
     border: 1px solid black;
     padding: .5rem;
-    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3px;
+    grid-auto-rows: 20px;
+    grid-template-areas: "a a" "a a" "b c" "d e" "f g" "h i" "j k";
+    border-radius: 20px;
 }
 .weather {
-    border-bottom: 1px solid black;
+    grid-area: a;
+    text-align: center;
+    text-decoration: underline black;
+}
+.current {
+    grid-area: b;
+    text-align: right;
+}
+.cuvalue {
+    grid-area: c;
+    margin: 0px 10px;
+}
+.high {
+    grid-area: d;
+    text-align: right;
+}
+.hivalue {
+    grid-area: e;
+    margin: 0px 10px;
+}
+.wind {
+    grid-area: f;
+    text-align: right;
+}
+.wivalue {
+    grid-area: g;
+    margin: 0px 10px;
+}
+.humidity {
+    grid-area: h;
+    text-align: right;
+}
+.huvalue {
+    grid-area: i;
+    margin: 0px 10px;
+}
+.speed {
+    grid-area: j;
+    text-align: right;
+}
+.spvalue {
+    grid-area: k;
+    margin: 0px 10px;
 }
 .article {
     height: 450px;
@@ -100,5 +154,18 @@ a:hover {
     text-align: center;
 } 
 .map {
+    display: none;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: #ffc922;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    margin: auto;
+    line-height: 1.75rem;
+}
+.forecast {
     display: none;
 }
