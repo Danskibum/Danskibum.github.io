@@ -42,10 +42,11 @@ footer {
 }
 header, footer {
     background-color: #56b811ff;
-    max-width: 800px;
+    max-width: 100%;
 }
 .motto {
     font-family: 'open sans condensed', sans-serif;
+    text-align: center;
 }
 nav {
     margin: 0 auto;
@@ -67,10 +68,16 @@ ul, menu, .responsive {
 a:hover {
     background-color: gray;
    }
+   .contact {
+       padding: 20px;
+   }
 .woman {
-    
     height: 250px;
     margin: 10px auto;
+}
+.article {
+    margin: auto;
+    padding: 1em;
 }
 .hike {
     text-align: center;
@@ -91,7 +98,7 @@ a:hover {
     grid-gap: 3px;
     grid-auto-rows: 20px;
     grid-template-areas: "a a" "a a" "b c" "d e" "f g" "h i" "j k";
-    
+    border-radius: 20px;
 }
 .weather {
     grid-area: a;
