@@ -1,13 +1,13 @@
-const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)
     .then(function (response) {
         return response.json();
     })
-    .then(function (jsonObject){
+    .then(function (jsonObject) {
        const towns = jsonObject["towns"];
        
-       for (let i = 0; i < towns.length; i++) {
+       for (let i = 0; i < towns.length; i++){
            If (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs"); {
 
             let card = document.createElement("section");
@@ -37,4 +37,4 @@ fetch(requestURL)
             document.querySelector("div.cards").appendChild(card);
            }
        }
-    })
+    });
