@@ -36,54 +36,55 @@
         <h2>Preston Idaho</h2>
         <div class=herodiv>
             <picture>
-                <source srcset="images/wdd230_image_franklin600.jpg" media="(min-width: 500px) and (max-width: 699px)">
+                <img class="hero" src="images/pexels-pixabay-edited.jpg" alt="piture of town">
+                <!--<source srcset="images/wdd230_image_franklin600.jpg" media="(min-width: 500px) and (max-width: 699px)">
                 <source srcset="images/wdd230_image_franklin800.jpg" media="(min-width: 700px)">    
-                <img class="hero" src="images/wdd230_image_franklin400.jpg" alt="landscape">
+                <img class="hero" src="images/wdd230_image_franklin400.jpg" alt="landscape">!-->
             </picture>
             <section class="overlay">
                 <h3 class="weather">Weather Summary</h3>
                 <div class="current">Current Temperature: </div>
-                <div class="cuvalue"><span id="temp">73</span> &#8457;</div>
+                <div class="cuvalue"><span id="temp"></span> &#8457; <span id="cudesc"></span></div>
                 <div class="high">High Temperature: </div>
-                <div class="hivalue"> 80 &#8457;</div>
+                <div class="hivalue"><span id="hivalue"></span> &#8457;</div>
                 <div class="wind">Windchill: </div>
                 <div class="wivalue"><span id="chill"></span> &#8457;</div>
                 <div class="humidity">Humidity: </div>
-                <div class="huvalue"> 60%</div>
+                <div class="huvalue"><span id="huvalue"></span> </div>
                 <div class="speed">Wind speed: </div>
-                <div class="spvalue"><span id="speed">10</span> MPH</div>
+                <div class="spvalue"><span id="speed"></span> MPH</div>
             </section>
         </div>    
         <section class="forecast">
             <h2>5-Day Forecast</h2>
             <table class="weathertable">
                 <tr>
-                    <th class="cell">Sunday</th>
-                    <th class="cell">Monday</th>
-                    <th class="cell">Tuesday</th>
-                    <th class="cell">Wednesday</th>
-                    <th class="cell">Thursday</th>
+                    <th class="cell"><span id="names1"></span></th>
+                    <th class="cell"><span id="names2"></span></th>
+                    <th class="cell"><span id="names3"></span></th>
+                    <th class="cell"><span id="names4"></span></th>
+                    <th class="cell"><span id="names5"></span></th>
                 </tr>
                 <tr>
                     <td class="cell">
-                        <img src="images/iconfinder_weather-06_1530386.png" alt="Sun cloud">
-                        <p>Cloudy &#8457;</p>
+                        <img id="icon1" src="/" alt="/"><br /><span id="day1"></span>
+                        &#8457;
                     </td>
                     <td class="cell">
-                        <img src="images/iconfinder_weather-06_1530386.png" alt="Sun cloud">
-                        <p>Partial Cloudy &#8457;</p>
+                        <img id="icon2" src="/" alt="/"><br /><span id="day2"></span>
+                        &#8457;
                     </td>
                     <td class="cell">
-                        <img src="images/iconfinder_weather-06_1530386.png" alt="Sun cloud">
-                        <p>Nice &#8457;</p>
+                        <img id="icon3" src="/" alt="/"><br /><span id="day3"></span>
+                        &#8457;
                     </td>
                     <td class="cell">
-                        <img src="images/iconfinder_weather-06_1530386.png" alt="Sun cloud">
-                        <p>Some clouds &#8457;</p>
+                        <img id="icon4" src="/" alt="/"><br /><span id="day4"></span>
+                        &#8457;
                     </td>
                     <td class="cell">
-                        <img src="images/iconfinder_weather-06_1530386.png" alt="Sun cloud">
-                        <p>Beautiful &#8457;</p>
+                        <img id="icon5" src="/" alt="/"><br /><span id="day5"></span>
+                        &#8457;
                     </td>
                 </tr>    
             </table>
@@ -118,10 +119,12 @@
     <footer>
         &copy; The Weather Site | Attributions | Daniel Gerdes <br>
         <div id="currentdate"></div>
+        <p>Weather data provided by <a href=" http://OpenWeatherMap.com">OpenWeatherMap</a></p>
     </footer>
     <script src="js/main.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
     <script src="js/webfont.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/api.js"></script>
 </body>
 </html>
