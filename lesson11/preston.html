@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Town page</title>
+    <meta name="description" content="w04 Preston Town Page">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/phone.css" rel="stylesheet">
+    <link href="css/tablet.css" rel="stylesheet">
+    <link href="css/desktop.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="banner">
+        <span id="reminder"></span>
+    </div>
+    <header>
+        <img class="icon" src="images/iconfinder_weather-03_1530390.png" alt="sunny cloud with rain">
+        <h1>The Weather Site</h1>
+        <div class="motto">The place to get your weather</div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class=herodiv>
+            <picture>
+                <img class="hero" src="images/pexels-pixabay-edited.jpg" alt="piture of town">
+                <!--<source srcset="images/wdd230_image_franklin600.jpg" media="(min-width: 500px) and (max-width: 699px)">
+                <source srcset="images/wdd230_image_franklin800.jpg" media="(min-width: 700px)">    
+                <img class="hero" src="images/wdd230_image_franklin400.jpg" alt="landscape">!-->
+            </picture>
+            <section class="overlay">
+                <h3 class="weather">Weather Summary</h3>
+                <div class="current">Current Temperature: </div>
+                <div class="cuvalue"><span id="temp"></span> &#8457; <span id="cudesc"></span></div>
+                <div class="high">High Temperature: </div>
+                <div class="hivalue"><span id="hivalue"></span> &#8457;</div>
+                <div class="wind">Windchill: </div>
+                <div class="wivalue"><span id="chill"></span> &#8457;</div>
+                <div class="humidity">Humidity: </div>
+                <div class="huvalue"><span id="huvalue"></span> </div>
+                <div class="speed">Wind speed: </div>
+                <div class="spvalue"><span id="speed"></span> MPH</div>
+            </section>
+        </div>    
+        <section class="forecast">
+            <h2>5-Day Forecast</h2>
+            <table class="weathertable">
+                <tr>
+                    <th class="cell"><span id="names1"></span></th>
+                    <th class="cell"><span id="names2"></span></th>
+                    <th class="cell"><span id="names3"></span></th>
+                    <th class="cell"><span id="names4"></span></th>
+                    <th class="cell"><span id="names5"></span></th>
+                </tr>
+                <tr>
+                    <td class="cell">
+                        <img id="icon1" src="/" alt="/"><br /><span id="day1"></span>
+                        &#8457;
+                    </td>
+                    <td class="cell">
+                        <img id="icon2" src="/" alt="/"><br /><span id="day2"></span>
+                        &#8457;
+                    </td>
+                    <td class="cell">
+                        <img id="icon3" src="/" alt="/"><br /><span id="day3"></span>
+                        &#8457;
+                    </td>
+                    <td class="cell">
+                        <img id="icon4" src="/" alt="/"><br /><span id="day4"></span>
+                        &#8457;
+                    </td>
+                    <td class="cell">
+                        <img id="icon5" src="/" alt="/"><br /><span id="day5"></span>
+                        &#8457;
+                    </td>
+                </tr>    
+            </table>
+        </section>
+        <section class="article">
+            <h3 class="hike">Getting outdoors and building family</h3>
+            <img class="woman" src="images/pexels-josh-willink-edited.jpg" alt="woman with child on back walking down path">
+            <p>If you like being with your family and would like for the chance to be closer to nature
+                as a family.  You will have a good weather window in which you can do just that.  If
+                you enjoy being outdoors no madder the weather well then get out there and enjoy
+                all the local trails.  In this article we will talk about some of the different types
+                of trails that are around Preston.  We will go over some of the clothing options
+                you might want to think about that will allow you to have the best time possible no matter
+                the what the weather is going to do while you are out in nature.
+            </p>
+        </section>
+        <section class="contact">
+            <div class="info">
+                <h2>Contact Information</h2>
+                <img class="map" src="images/map.jpg" alt="section of tacoma map">
+                <p>The Weather site</p>
+                <p><i class="material-icons">&#127968;</i> Address:<br>
+                155 Weather St Tacoma, WA 98418<br><br>
+                <i class="material-icons">&phone;</i> Phone: <br>
+                (888) 456-4857<br>
+                <i class="material-icons">&#9993;</i> Email: <br>
+                weather@prestoncity.org
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; The Weather Site | Attributions | Daniel Gerdes <br>
+        <div id="currentdate"></div>
+        <p>Weather data provided by <a href=" http://OpenWeatherMap.com">OpenWeatherMap</a></p>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+    <script src="js/webfont.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/api.js"></script>
+</body>
+</html>
