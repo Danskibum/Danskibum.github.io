@@ -203,4 +203,110 @@ div.cards img {
 .main h5 {
     font-size: 2.5rem;
     margin-top: .5rem;
+}/* --------Storm Center--------- */
+
+main.bg {
+    background-color: lightgray;
+    padding: 10px 8px 50px 8px;
+}
+/*--------Form--------------*/
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%
+}
+form legend {
+    color: #56b811ff;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #56b811ff;
+}
+
+form input.sub {
+    border: none;
+    background-color: #56b811ff;
+    color: black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+.scale {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}#ratingvalue {
+	margin: 0 15px;
+}
+form textarea {
+    width: 96%;
+}
+/*-------------Thank you----------*/
+main.center {
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px 8px 50px 8px;
+}
+/*-----------------Gallery---------------*/
+.gallery h1 {
+    padding-left: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: 10px;
+}
+.grid-item {
+    background-color: #56b811ff;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: .9rem;
+}
+figure {
+    margin: 0px;
+}
+figure img[data-src] {
+    filter: blur(0.2em);
+}
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+figcaption {
+    padding: .5rem 1rem;
 }

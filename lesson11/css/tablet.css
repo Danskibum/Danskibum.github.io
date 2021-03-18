@@ -65,5 +65,9 @@
         text-align: center;
         vertical-align: top;
     }
+    /*------------gallery---------*/
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
 }
 }
