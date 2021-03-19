@@ -1,0 +1,16 @@
+img {
+    max-width: 300px;
+    max-width: 400px;
+}
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+picture img[data-src]{
+    filter: blur(0.2em);
+}
+picture img {
+    filter: blur(0em);
+    transition: filter 2.0s;
+}
