@@ -7,7 +7,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
        const towns = jsonObject["towns"];
        
-       for (let i = 0; i < towns.length; i++){
+       for (let i = 0; i < towns.length; i++) {
            If (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs"); {
 
             let card = document.createElement("section");
@@ -35,6 +35,6 @@ fetch(requestURL)
             card.appendChild(pic);
 
             document.querySelector("div.cards").appendChild(card);
-           }
-       }
+           };
+        };
     });

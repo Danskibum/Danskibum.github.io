@@ -18,7 +18,7 @@
     display: none;
 }
 .responsive li {
-    display: block
+    display: block;
 }
 .icon {
     max-width: 150px;
@@ -35,7 +35,7 @@ h1, h2 {
     background-color: #56b811ff;
     color: #0e0514ff;
     font-family: 'gorditas', cursive;
-    text-align: center
+    text-align: center;
 }
 footer {
     text-align: center;
@@ -54,7 +54,7 @@ nav {
 }
 
 ul, menu, .responsive {
-    padding: 0
+    padding: 0;
 }
 .active {
     border: solid 1px;
@@ -199,7 +199,7 @@ div.cards img {
     width: 100%;
 }
 .main {
-    max-width: 80%;
+    max-width: 100%;
 }
 .main h4 {
     font-size: 3rem;
@@ -208,7 +208,9 @@ div.cards img {
 .main h5 {
     font-size: 2.5rem;
     margin-top: .5rem;
-}/* --------Storm Center--------- */
+}
+
+/* --------Storm Center--------- */
 
 main.bg {
     background-color: lightgray;
@@ -220,10 +222,10 @@ form fieldset {
     margin: 2rem 0;
     border: 1px solid black;
     border-radius: 10px;
-    padding: .5rem 2%
+    padding: .5rem 2%;
 }
 form legend {
-    color: #56b811ff;
+    color: black;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -314,4 +316,7 @@ figure img {
 }
 figcaption {
     padding: .5rem 1rem;
+}
+body, header, nav, footer {
+    width: 100%;
 }
