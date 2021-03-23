@@ -33,7 +33,7 @@
         </ul>
     </nav>
     <main>
-        <h2>Preston Idaho</h2>
+        <h2 >Preston Idaho</h2>
         <div class=herodiv>
             <picture>
                 <img class="hero" src="images/pexels-pixabay-edited.jpg" alt="piture of town">
@@ -47,45 +47,36 @@
                 <div class="wind">Windchill: </div>
                 <div class="wivalue"><span id="chill"></span> &#8457;</div>
                 <div class="humidity">Humidity: </div>
-                <div class="huvalue"><span id="huvalue"></span> </div>
+                <div class="huvalue"><span id="huvalue"></span> %</div>
                 <div class="speed">Wind speed: </div>
                 <div class="spvalue"><span id="speed"></span> MPH</div>
             </section>
         </div>    
         <section class="forecast">
-            <h2>5-Day Forecast</h2>
-            <table class="weathertable">
-                <tr>
-                    <th class="cell"><span id="names1"></span></th>
-                    <th class="cell"><span id="names2"></span></th>
-                    <th class="cell"><span id="names3"></span></th>
-                    <th class="cell"><span id="names4"></span></th>
-                    <th class="cell"><span id="names5"></span></th>
-                </tr>
-                <tr>
-                    <td class="cell">
-                        <img id="icon1" src="/" alt="/"><br /><span id="day1"></span>
-                        &#8457;
-                    </td>
-                    <td class="cell">
-                        <img id="icon2" src="/" alt="/"><br /><span id="day2"></span>
-                        &#8457;
-                    </td>
-                    <td class="cell">
-                        <img id="icon3" src="/" alt="/"><br /><span id="day3"></span>
-                        &#8457;
-                    </td>
-                    <td class="cell">
-                        <img id="icon4" src="/" alt="/"><br /><span id="day4"></span>
-                        &#8457;
-                    </td>
-                    <td class="cell">
-                        <img id="icon5" src="/" alt="/"><br /><span id="day5"></span>
-                        &#8457;
-                    </td>
-                </tr>    
-            </table>
-        </section>
+			<h2>5-Day Forecast</h2>
+			<table class="weathertable">
+				<tr>
+					<th class="cell"><span id="names1"></span></th>
+					<th class="cell"><span id="names2"></span></th>
+					<th class="cell"><span id="names3"></span></th>
+					<th class="cell"><span id="names4"></span></th>
+					<th class="cell"><span id="names5"></span></th>
+				</tr>
+				<tr>
+					<td class="cell"><img id="icon1" src="/" alt="/"><br /><span id="day1"></span>
+						&#8457;</td>
+					<td class="cell"><img id="icon2" src="/" alt="/"><br /><span id="day2"></span>
+						&#8457;</td>
+					<td class="cell"><img id="icon3" src="/" alt="/"><br /><span id="day3"></span>
+						&#8457;</td>
+					<td class="cell"><img id="icon4" src="/" alt="/"><br /><span id="day4"></span>
+						&#8457;</td>
+					<td class="cell"><img id="icon5" src="/" alt="/"><br /><span id="day5"></span>
+						&#8457;</td>
+				</tr>
+			</table>
+		</section>
+        <div class="container"><h2>Upcoming Events</h2></div>
         <section class="article">
             <h3 class="hike">Getting outdoors and building family</h3>
             <img class="woman" src="images/pexels-josh-willink-edited.jpg" alt="woman with child on back walking down path">
@@ -123,5 +114,6 @@
     <script src="js/webfont.js"></script>
     <script src="js/windchill.js"></script>
     <script src="js/prestonapi.js"></script>
+    <script src="js/prestonevents.js"></script>
 </body>
 </html>

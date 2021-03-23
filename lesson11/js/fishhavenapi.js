@@ -56,7 +56,7 @@ fetch(apiURL2)
                         varDay = "Sun";
                         break;
                 }
-                const imgesrc = "https://openweathermap.org/img/w/" + jsObect.list[key].weather[0].icon + ".png";
+                const imagesrc = "https://openweathermap.org/img/w/" + jsObect.list[key].weather[0].icon + ".png";
                 const desc = jsObect.list[key].weather[0].description;
 
                 document.getElementById("day" + count).textContent = jsObect.list[key].main.temp.toFixed(0);

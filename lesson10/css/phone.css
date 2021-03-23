@@ -58,7 +58,10 @@ ul, menu, .responsive {
 }
 .active {
     border: solid 1px;
-    background-color: gray;
+    background-color: black;
+}
+.active a {
+    color: white;
 }
 .hero { 
     width: 100%;
