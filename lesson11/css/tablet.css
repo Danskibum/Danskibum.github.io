@@ -69,5 +69,9 @@
     .grid-container {
         grid-template-columns: auto auto;
     }
-}
+
+    /*-----------Home-------------*/
+    div.cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
