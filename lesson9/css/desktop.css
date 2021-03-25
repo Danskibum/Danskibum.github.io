@@ -5,6 +5,20 @@
     .banner {
         font-weight: bold;
     }
+/*------------Home------------*/
+div.cards {
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 200px;
+}
 
+.contact2 {
+    opacity: .7;
+}
+
+body.image {
+    background-position: center;
+    background-image: url(../images/atmosphere-1.jpg);
+    background-attachment: fixed;
+}
     
 }

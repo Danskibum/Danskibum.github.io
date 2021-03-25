@@ -65,5 +65,8 @@
         text-align: center;
         vertical-align: top;
     }
-}
+    /*-----------Home-------------*/
+    div.cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
