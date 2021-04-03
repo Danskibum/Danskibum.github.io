@@ -6,8 +6,52 @@
     <title>Tacoma Chamber of Commerce</title>
     <meta name="description" content="Final project for Daniel Gerdes WDD 230">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">
 </head>
+<body>
+    <header>
+        <img class="icon" src="images/dome.edit.jpg" alt="Tacoma Dome">
+        <h1>Tacoma Chamber of Commerce</h1>
+        <div class="motto">Working to make Tacoma Great</div>
+
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="#" onclick="toggleMenu()">&#9776; menu</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+        </ul>
+    </nav>
+    <section class="button">
+        <p>Do you want to make Tacoma Great? If you do please join.</p>
+        <button >Join Here</button>
+    </section>
+    <main>
+        <section class="overlay">
+            <h3 class="weather">Weather Summary</h3>
+            <div class="current">Current Temperature: </div>
+            <div class="cuvalue"><span id="temp"></span> &#8457; <span id="cudesc"></span></div>
+            <div class="high">High Temperature: </div>
+            <div class="hivalue"><span id="hivalue"></span> &#8457;</div>
+            <div class="humidity">Humidity: </div>
+            <div class="huvalue"><span id="huvalue"></span> %</div>
+            <div class="speed">Wind speed: </div>
+            <div class="spvalue"><span id="speed"></span> MPH</div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src="js/api.js"></script>
+</body>
 
 </html>

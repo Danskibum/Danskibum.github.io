@@ -6,3 +6,73 @@ head {
     color: #faf9f9;
     color: #ffd6ba;
 }
+/*------main css-------*/
+.menu li:first-child {
+    display: block;
+}
+.menu li{
+    display: none;
+}
+.responsive li {
+    display: block;
+}
+header, footer {
+    max-width: 100%;
+    text-align: center;
+    background-color: #bee3db;
+    padding: 1em;
+}.button {
+    background-color:blueviolet;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+.overlay{
+    background-color: rgba(86, 184, 17, .8);
+    border: 1px solid black;
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3px;
+    grid-auto-rows: 20px;
+    grid-template-areas: "a a" "a a" "b c" "d e" "f g" "h i";
+    border-radius: 20px;
+}
+.weather {
+    grid-area: a;
+    text-align: center;
+    text-decoration: underline black;
+}
+.current {
+    grid-area: b;
+    text-align: right;
+}
+.cuvalue {
+    grid-area: c;
+    margin: 0px 10px;
+}
+.high {
+    grid-area: d;
+    text-align: right;
+}
+.hivalue {
+    grid-area: e;
+    margin: 0px 10px;
+}
+.humidity {
+    grid-area: f;
+    text-align: right;
+}
+.huvalue {
+    grid-area: g;
+    margin: 0px 10px;
+}
+.speed {
+    grid-area: h;
+    text-align: right;
+}
+.spvalue {
+    grid-area: i;
+    margin: 0px 10px;
+}
