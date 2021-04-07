@@ -1,0 +1,46 @@
+{
+    "business": [
+        {
+            "name":"printNW",
+            "phone":"(253) 284-2300",
+            "logo":"images/PrintNW_GRN.png",
+            "website":"https://printnw.rocks"
+        },
+        {
+            "name":"Pepsi Beverages company",
+            "phone":"(253) 383-3492",
+            "logo":"images/pepsi.png",
+            "website":"https://pepsi.com"
+        },
+        {
+            "name":"AMS technology",
+            "phone":"(253) 848-5968",
+            "logo":"images/AMS_logo_-_white-01.png",
+            "website":"https://amstechnology.net"
+        },
+        {
+            "name":"Rainier Connect",
+            "phone":"(253) 683-4200",
+            "logo":"images/rainierconnect.jpg",
+            "website":"https://rainierconnect.com"
+        },
+        {
+            "name":"Tech Masters Computer Service",
+            "phone":"(253) 565-0138",
+            "logo":"images/TechMasters.jpg",
+            "website":"https://yourtechmasters.com"
+        },
+        {
+            "name":"Chambers Bay Golf Course",
+            "phone":"(253) 552-4864",
+            "logo":"images/chambersbay.jpg",
+            "website":"https://chambersbaygolf.com"
+        },
+        {
+            "name":"Emerald Queen Casino",
+            "phone":"(253) 594-7777",
+            "logo":"images/eqc.jpg",
+            "website":"https://emeraldqueen.com"
+        }
+    ]
+}
