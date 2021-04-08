@@ -32,7 +32,7 @@
         <section>
             <h2>Membership Application</h2>
             <form method="get" action="thankyou.html">
-                <fieldset>
+                <fieldset class="personal">
                     <legend>Personal Information &nbsp;<em>(*required)</em>
                     </legend>
                     <label class="top">First Name* <input type="text" id="fname" minlength="3" pattern="[^0-9]+[a0zA-Z\s] {4, }" required>
@@ -46,7 +46,7 @@
                     <label class="top">Cell Phone <input type="tel" name="phone" placeholder="(253) 123-4567">
                     </label>
                 </fieldset>
-                <fieldset>
+                <fieldset class="business">
                     <legend>Business Information &nbsp;<em>(*required)</em>
                     </legend>
                     <label class="top">Business Name* <input type="text" id="bname" minlength="5" pattern="[0-9]+[a0zA-Z\s] {4, }" required>
@@ -56,13 +56,13 @@
                     <label class="top">Business URL <input type="url" name="website" placeholder="http://yourcompany.com">
                     </label>
                 </fieldset>
-                <fieldset>
+                <fieldset class="business">
                     <legend>Business Description</legend>
                     <label class="top" for="textarea"><textarea id="description" rows="10" cols="50"
                         placeholder="Enter Description here..."></textarea>
                     </label>
                 </fieldset>
-                <fieldset>
+                <fieldset class="member">
                     <legend>Membership Level</legend>
                     <div></div>
                     <label class="sbs"><input type="radio" name="level" value="Non-profit">Non-Profit ($100)
@@ -80,7 +80,8 @@
         </section>
     </main>
     <footer>
-
+        &copy; Tacoma Chamber Commerce Site | <a href="attribution.html">Attributions</a> | Daniel Gerdes <br>
+        <div id="currentdate"></div>
     </footer>
     <script src="js/main.js"></script>
     <script src="js/webfont.js"></script>
